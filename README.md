@@ -1,7 +1,12 @@
 # DataAnalysis
 
+
+
 ## AntiPorn Analysis
+
 Calling an AntiPorn Api to analyze user queries. Get the amount and matched dirty word of each user.
+
+
 
 ## User activity analysis
 
@@ -28,9 +33,12 @@ Calling an AntiPorn Api to analyze user queries. Get the amount and matched dirt
 
 ![table](table.png)
 
+
+
 ## Retention rate 
+
 ### Definition
-> Retention Rate = ((CE-CN)/CS)) X 100
+**Retention Rate = ((CE-CN)/CS)) X 100**
 
 *CE = number of customers at end of period*
 
@@ -40,5 +48,5 @@ Calling an AntiPorn Api to analyze user queries. Get the amount and matched dirt
 
 ### Implementation
 - 次日留存: next_day_retention
-- 七日留存:seven_day_retention
-- 七日内留存:in_seven_day_retention# DataAnalysis
+- 七日留存: seven_day_retention
+- 七日内留存: in_seven_day_retention
