@@ -4,6 +4,9 @@
 Calling an AntiPorn Api to analyze user queries. Get the amount and matched dirty word of each user.
 
 ## User activity analysis
+
+### Stats
+
 - user number
   - user number in different mode
   - different mode user num percentage
@@ -21,16 +24,19 @@ Calling an AntiPorn Api to analyze user queries. Get the amount and matched dirt
   - percentage
   - different mode amount/percentage
 
-###Table
+### Table
 
-![table](/Users/tangjin02/Desktop/table.png)
+![table](table.png)
 
 ## Retention rate 
 ### Definition
 > Retention Rate = ((CE-CN)/CS)) X 100
-  CE = number of customers at end of period
-  CN = number of new customers acquired during period
-  CS = number of customers at start of period
+
+*CE = number of customers at end of period*
+
+*CN = number of new customers acquired during period*
+
+*CS = number of customers at start of period*
 
 ### Implementation
 - 次日留存: next_day_retention
